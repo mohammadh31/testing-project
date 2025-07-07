@@ -1,0 +1,68 @@
+@import "./components/actions/loader/loading.css";
+
+:root {
+  --nav-color: #1a1e21;
+  --block-color: #212529;
+  --text-shadow-color: #000000;
+  --box-shadow-color: #0000003a;
+  --border: #3f7489;
+  --hover-button: #366375;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #414240ac;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #212529;
+  border-radius: 20px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+* {
+  transition: all 0.3s;
+  max-width: 100vw;
+  color: white !important;
+  text-decoration: none !important;
+}
+body {
+  background-color: #212529;
+}
+.nav,
+.footer1 {
+  background-color: var(--nav-color);
+}
+.card {
+  border-radius: 20px;
+  box-shadow: none;
+}
+.card:hover {
+  transform: translateX(10px);
+}
+.sideBarButton {
+  border: none !important;
+  background-color: transparent;
+}
+.sideBarButton:hover,
+.sideBarButton:active {
+  background-color: var(--hover-button) !important;
+}
+.cardButton {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--border);
+}
+.cardButton:hover {
+  background-color: var(--hover-button);
+}
+.card-body {
+  cursor: pointer;
+}
+.sidebar1 {
+  background-color: var(--nav-color);
+}

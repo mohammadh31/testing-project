@@ -1,0 +1,46 @@
+:root {
+  --nav-color: #1a1e21;
+  --block-color: #212529;
+  --text-shadow-color: #000000;
+  --box-shadow-color: #0000003a;
+  --border: #3f7489;
+  --hover-button: #366375;
+}
+
+form {
+  max-width: 700px;
+}
+.input-box .field {
+  width: 100%;
+  height: 50px;
+  background: var(--nav-color);
+  border: none;
+  border-left: 4px solid var(--border);
+  outline: none;
+  padding: 15px;
+  font-size: 16px;
+  color: #333;
+}
+.input-box .field.mess {
+  height: 200px;
+  resize: none;
+}
+
+form button {
+  width: 100%;
+  height: 55px;
+  background: var(--border);
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 25px;
+  transition: 0.5s;
+}
+
+form button:hover {
+  background: var(--hover-button);
+}
