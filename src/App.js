@@ -39,7 +39,7 @@ function App() {
               <Row className="m-auto">
                 <NavBar />
               </Row>
-              <Row className="container mt-xxl-5 m-auto" style={{}}>
+              <Row className="container pt-5 mt-5 m-auto" style={{}}>
                 <Col xs={2} style={{ backgroundColor: "#1a1e21" }}>
                   <Sidebar />
                 </Col>
@@ -61,7 +61,7 @@ function App() {
                 </Col>
               </Row>
             </BrowserRouter>
-            <Row className="justify-content-center">
+            <Row className="justify-content-center mt-5">
               <Footer />
             </Row>
           </div>

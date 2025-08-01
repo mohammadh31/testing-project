@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="text-center text-white container-fluid footer1">
       <Container className="p-4 pb-0">
-        <section className="mb-4">
+        <section>
           <MDBBtn
             outline
             color="dark"
@@ -78,7 +78,7 @@ export default function Footer() {
         className="text-center p-3"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
-        © Copyright:{" "}
+        © Copyright:
         <a className="text-white" href="/">
           Mohammad Haoaj
         </a>

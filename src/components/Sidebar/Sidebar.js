@@ -13,7 +13,7 @@ function Sidebar() {
   ];
 
   return (
-    <Row className="mt-2 ">
+    <Row className="mt-5 text-center">
       {getData.map((data) => (
         <Link key={data.id} to={`/${data.link}`} className="sideBarButton">
           <Buttons data={data} />

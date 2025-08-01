@@ -2,7 +2,7 @@ import { Row } from "react-bootstrap";
 
 function Home() {
   return (
-    <div className="" style={{ height: "70vh" }}>
+    <div className="" style={{}}>
       <Row className="text-center p-2 mb-4">
         <h1 style={{ color: "white" }}>
           Welcome to my simple data import and editing site.

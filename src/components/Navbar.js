@@ -16,7 +16,7 @@ function NavBar() {
           Home
         </Link>
       </Col>
-      <Col xs={1} className="mx-3">
+      <Col xs={1} className="mx-3 w-auto">
         <Link to="/callUs" className="fs-5">
           Contact us
         </Link>
